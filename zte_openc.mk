@@ -45,8 +45,9 @@ PRODUCT_PACKAGES += \
   bluetooth.default \
   timekeep
 
+TARGET_DEVICE_BLOBS := vendor/zte/zte_p821a10/zte_p821a10-vendor-blobs.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/generic.mk)
-$(call inherit-product-if-exists, vendor/zte/zte_p821a10/zte_p821a10-vendor-blobs.mk)
+$(call inherit-product-if-exists, $(TARGET_DEVICE_BLOBS))
 $(call inherit-product, device/qcom/msm8610/msm8610.mk)
 
 PRODUCT_BRAND := ZTE

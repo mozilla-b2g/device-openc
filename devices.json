@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ZTE Open C",
+    "adb": {
+      "ro.product.device": [ "ZTE_P821A10" ],
+      "ro.product.manufacturer": "ZTE",
+      "ro.build.id": "JLS36C"
+    },
+    "fastboot": {
+      "product": [ "MSM8610" ],
+      "version": [ "0.5" ]
+    }
+  }
+]
