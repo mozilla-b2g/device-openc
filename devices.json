@@ -1,10 +1,27 @@
 [
   {
-    "id": "ZTE Open C",
+    "id": "ZTE Open C EU (developer image)",
     "adb": {
-      "ro.product.device": [ "ZTE_P821A10" ],
+      "ro.product.name": "ZTE_OPENC",
+      "ro.product.device": "ZTE_P821A10",
       "ro.product.manufacturer": "ZTE",
-      "ro.build.id": "JLS36C"
+      "ro.build.id": "JLS36C",
+      "ro.build.type": "eng",
+      "ro.build.inner.version": "FOS_EU_EBAY_P821A10V1.0.0B06",
+      "ro.build.version.incremental": "eng..20140505.045022"
+    },
+    "fastboot": {
+      "product": [ "MSM8610" ],
+      "version": [ "0.5" ]
+    }
+  },
+  {
+    "id": "ZTE Open C EU (community build)",
+    "adb": {
+      "ro.product.name": "zte_openc_eu",
+      "ro.product.device": "zte_p821a10",
+      "ro.product.manufacturer": "ZTE",
+      "ro.build.type": [ "eng", "userdebug" ]
     },
     "fastboot": {
       "product": [ "MSM8610" ],

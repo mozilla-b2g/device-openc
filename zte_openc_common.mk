@@ -52,9 +52,7 @@ $(call inherit-product, device/qcom/msm8610/msm8610.mk)
 
 PRODUCT_BRAND := ZTE
 PRODUCT_MANUFACTURER := ZTE
-PRODUCT_NAME := zte_openc
 PRODUCT_DEVICE := zte_p821a10
-PRODUCT_MODEL := Open C
 
 GAIA_DEV_PIXELS_PER_PX := 1.5
 BOOTANIMATION_ASSET_SIZE := wvga_800
