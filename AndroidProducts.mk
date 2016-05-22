@@ -1,1 +1,1 @@
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/zte_openc_eu.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/zte_openc_fr.mk
