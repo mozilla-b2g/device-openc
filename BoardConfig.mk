@@ -27,6 +27,7 @@ BOARD_BLUETOOTH_DOES_NOT_USE_RFKILL := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := \
   device/zte/zte_p821a10/bluetooth \
   hardware/libhardware_moz/include/hardware_moz/bluetooth/bluedroid
+BOARD_BLUETOOTH_BDROID_USE_CAF_EXTENSIONS := true
 
 # Appareil photo / enregistrement vidéo
 TARGET_USES_ION := true
